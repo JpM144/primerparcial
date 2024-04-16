@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+
+}
+
+.container{
+    width: 90%;
+    /* height: 150px; */
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+img{
+    width: 80px;
+    border-radius: 10px;
+}
+
+.body_form{
+    width: 180px;
+    height: 100px;
+    margin: 0px;
+    text-align: justify;
+    
+
+    
+}
+
+.color_body{
+    background-color: rgb(255, 218, 138);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    padding: 5px;
+    border-radius: 3px;
+    transition: all ease-in-out .3s;
+}
